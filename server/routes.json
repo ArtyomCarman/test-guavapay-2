@@ -1,0 +1,4 @@
+{
+  "/cards/:cardID": "/cards?cardID=:cardID",
+  "/transactions/:transactionID": "/transactions?transactionID=:transactionID"
+}

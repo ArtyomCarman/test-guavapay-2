@@ -1,0 +1,21 @@
+.pagination {
+    display: flex;
+    gap: 5px;
+}
+
+.pagination-button {
+    border: none;
+    padding: 5px 10px;
+    margin: 0;
+    display: inline-flex;
+    border-radius: 5px;
+}
+
+.pagination-button:hover {
+    cursor: pointer;
+    background-color: skyblue;
+}
+
+.pagination-active-button {
+    background-color: skyblue;
+}

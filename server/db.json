@@ -1,0 +1,69 @@
+{
+  "cards": [
+    {
+      "cardID": 1,
+      "cardAccount": "card account 1",
+      "maskedCardNumber": "+7 (999) 99-99-99",
+      "expireDate": "Fri Jun 03 2022 19:34:08 GMT+0400 (+04)",
+      "currency": "AZN",
+      "status": "active",
+      "balance": 1111
+    },
+    {
+      "cardID": "2",
+      "cardAccount": "card account 2",
+      "maskedCardNumber": "+0 (123) 456-78-90",
+      "expireDate": "Fri Jun 03 2022 19:36:08 GMT+0400 (+04)",
+      "currency": "EUR",
+      "status": "active",
+      "balance": 2222
+    },
+    {
+      "cardID": "3",
+      "cardAccount": "card account 3",
+      "maskedCardNumber": "+0 (123) 456-78-90",
+      "expireDate": "Fri Jun 03 2022 19:38:08 GMT+0400 (+04)",
+      "currency": "USD",
+      "status": "blocked",
+      "balance": 3333
+    }
+  ],
+  "transactions": [
+    {
+      "transactionID": "1",
+      "cardAccount": "card account 1",
+      "cardID": "1",
+      "amount": 111,
+      "currency": "AZN",
+      "transactionDate": "Fri Jun 03 2022 19:36:08 GMT+0400 (+04)",
+      "merchantInfo": "puma"
+    },
+    {
+      "transactionID": "2",
+      "cardAccount": "card account 1",
+      "cardID": "1",
+      "amount": 222,
+      "currency": "USD",
+      "transactionDate": "Fri Jun 03 2022 19:37:08 GMT+0400 (+04)",
+      "merchantInfo": "reebok"
+    },
+    {
+      "transactionID": "3",
+      "cardAccount": "card account 2",
+      "cardID": "2",
+      "amount": 333,
+      "currency": "EUR",
+      "transactionDate": "Fri Jun 03 2022 19:39:08 GMT+0400 (+04)",
+      "merchantInfo": "adidas"
+    },
+    {
+      "transactionID": "4",
+      "cardAccount": "card account 3",
+      "cardID": "3",
+      "amount": 444,
+      "currency": "AZN",
+      "transactionDate": "Fri Jun 03 2022 19:40:08 GMT+0400 (+04)",
+      "merchantInfo": "nike"
+    }
+  ]
+}

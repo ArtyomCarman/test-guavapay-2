@@ -1,0 +1,8 @@
+.app-nav {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    border-bottom: solid 1px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
